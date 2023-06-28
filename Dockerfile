@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:latest
+FROM jupyter/julia-notebook:latest
 
 USER "${NB_USER}"
 
