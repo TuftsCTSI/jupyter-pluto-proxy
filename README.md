@@ -1,4 +1,4 @@
-# Launch Pluto.jl from Jupyter
+# Run Pluto.jl on a JupyterHub
 
 [![Latest PyPI version](https://img.shields.io/pypi/v/jupyter-pluto-proxy?logo=pypi)](https://pypi.python.org/pypi/jupyter-pluto-proxy)
 
@@ -11,18 +11,15 @@ This is primarily for use with
 [JupyterHub](https://github.com/jupyterhub/jupyterhub) in container
 based environments.
 
-## Launch
+Based on [original repo from Illumidesk](https://github.com/IllumiDesk/jupyter-pluto-proxy).
+
+## Try it out
 
 Take it for a spin with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yuvipanda/jupyter-pluto-proxy/main?urlpath=pluto)
 
 This should launch you straight into Pluto.
-
-## Requirements
-
-- [Python 3.6+](https://www.python.org/downloads/)
-- [Docker](https://docs.docker.com/get-docker/)
 
 ## Installation
 
@@ -35,13 +32,6 @@ pip install jupyter-pluto-proxy
 You also need to have Julia and [Pluto.jl](https://github.com/fonsp/Pluto.jl)
 installed.
 
-## Launch
-
-```bash
-make build
-```
-
-The `make build` command creates your virtual environment with `virtualenv` and Python3, installs the required dependencies, and then launches your notebook with an arbritrary port with `repo2docker`.
 
 ## Development
 
