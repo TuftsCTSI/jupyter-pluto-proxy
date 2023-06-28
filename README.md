@@ -15,6 +15,17 @@ Then, from the the Jupyter Lab Launcher --> Pluto. Alternatively, from Jupyter N
 - [Python 3.6+](https://www.python.org/downloads/)
 - [Docker](https://docs.docker.com/get-docker/)
 
+## Installation
+
+You can install `jupyter-pluto-proxy` from [PyPI](https://pypi.org/project/jupyter-pluto-proxy/).
+
+```bash
+pip install jupyter-pluto-proxy
+```
+
+You also need to have Julia and [Pluto.jl](https://github.com/fonsp/Pluto.jl)
+installed.
+
 ## Launch
 
 ```bash
