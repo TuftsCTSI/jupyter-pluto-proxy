@@ -7,7 +7,7 @@ RUN mkdir "${HOME}/app"
 WORKDIR "${HOME}/app"
 
 RUN julia -e 'using Pkg; Pkg.update(); \
-    Pkg.add(PackageSpec.(["CSV", "Images", "Plots", "Pluto", "Statistics"]))'
+    Pkg.add(PackageSpec.(["Pluto"]))'
 
 COPY . "${HOME}/app"
 
