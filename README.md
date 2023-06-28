@@ -1,14 +1,23 @@
-# Jupyter Server Proxy + Pluto.jl
+# Launch Pluto.jl from Jupyter
 
-Launch the awesome Pluto.jl Notebook from the Jupyter Lab `Launcher` or the Jupyter Classic `New` dropdown. This package was built using the [`jupyter-server-proxy` cookiecutter template](https://github.com/illumidesk/cookiecutter-jupyter-server-proxy).
+[![Latest PyPI version](https://img.shields.io/pypi/v/jupyter-pluto-proxy?logo=pypi)](https://pypi.python.org/pypi/jupyter-pluto-proxy)
+
+Launch the awesome [Pluto.jl Notebook](https://plutojl.org/) from the
+Jupyter Lab `Launcher` or the Jupyter Classic `New` dropdown. This
+package was built using the [`jupyter-server-proxy` cookiecutter
+template](https://github.com/illumidesk/cookiecutter-jupyter-server-proxy).
+
+This is primarily for use with
+[JupyterHub](https://github.com/jupyterhub/jupyterhub) in container
+based environments.
 
 ## Launch
 
 Take it for a spin with Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/illumidesk/jupyter-pluto-proxy/main?urlpath=pluto)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yuvipanda/jupyter-pluto-proxy/main?urlpath=pluto)
 
-Then, from the the Jupyter Lab Launcher --> Pluto. Alternatively, from Jupyter Notebook Classic (change the path in your browser to use `/tree`) click on `New` --> `Pluto Notebook`.
+This should launch you straight into Pluto.
 
 ## Requirements
 
