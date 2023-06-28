@@ -10,10 +10,10 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="jupyter-pluto-proxy",
-    version='0.1.0',
-    url="https://github.com/illumidesk/jupyter-pluto-proxy",
-    author="IllumiDesk Team",
-    description="hello@illumidesk.com",
+    version='0.1.1',
+    url="https://github.com/yuvipanda/jupyter-pluto-proxy",
+    author="IllumiDesk Team & Yuvi Panda",
+    description="Run Pluto.jl in JupyterHub",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
