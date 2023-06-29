@@ -29,6 +29,13 @@ You can install `jupyter-pluto-proxy` from [PyPI](https://pypi.org/project/jupyt
 pip install jupyter-pluto-proxy
 ```
 
+You can also install it from [conda-forge](https://anaconda.org/conda-forge/jupyter-pluto-proxy)
+with `mamba` or `conda`.
+
+```bash
+mamba install -c conda-forge jupyter-pluto-proxy
+```
+
 You also need to have Julia and [Pluto.jl](https://github.com/fonsp/Pluto.jl)
 installed.
 
