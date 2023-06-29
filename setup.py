@@ -10,7 +10,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="jupyter-pluto-proxy",
-    version='0.1.1',
+    version='0.1.2',
     url="https://github.com/yuvipanda/jupyter-pluto-proxy",
     author="IllumiDesk Team & Yuvi Panda",
     description="Run Pluto.jl in JupyterHub",
