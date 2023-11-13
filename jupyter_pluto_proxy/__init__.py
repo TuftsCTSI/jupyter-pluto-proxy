@@ -24,7 +24,7 @@ def setup_pluto() -> Dict[str, Any]:
             "julia",
             "--optimize=0",
             "-e",
-            "import Pluto; Pluto.run(host=\"0.0.0.0\", port={port}, launch_browser=false, require_secret_for_open_links=false, require_secret_for_access=false)"
+            "import Pluto; Pluto.run(host=\"127.0.0.1\", port={port}, launch_browser=false, require_secret_for_open_links=false, require_secret_for_access=false)"
         ],
         "timeout": 60,
         "new_browser_tab": True,
